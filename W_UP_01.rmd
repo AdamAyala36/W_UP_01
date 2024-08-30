@@ -57,8 +57,9 @@ The mean of the Line players is about 17 while the Skill players have a mean of 
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-The probability we get from the t-test is 0.000009421. I conclude that the Skill players are able to perform more push ups than the line players.
+The probability we get from the t-test is 0.000009421. I conclude that the Skill players have the ability to perform more push ups than the line players.
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason. Watch the chapter 6 videos from the George Town videos collection.!-->
+Visual and Numerical data have shown that the Skill players are able to do significantly more push ups than the Line players. This is seen with a near 3 times difference median between the two types of players. Where the Skill players median was around 50 while the Line players median being around 17. A t-test was then done to look for any issues within the data showing a 0.000009421 p-value. Due to such a low probability value it can be concluded that the Skill player are more capable to perform more push ups than the Line Players.
