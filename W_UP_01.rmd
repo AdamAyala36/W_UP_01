@@ -43,11 +43,14 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
-The data shows that skill players are able to do more push ups than the line players. The median of the skill players is around 50 while the median of the Line players is around 10. Nearly a 4 times increase between the medians.
+The data shows that skill players are able to do more push ups than the line players. The line players are showing to do significantly less push ups compared to the skill players.
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
-
+```{r}
+favstats(pushups~position,data=mydata)
+```
+The mean of the Line players is about 17 while the Skill players have a mean of around 50. For an even crazier number the most done by a Skill player was 108 while a Line player could only do 34, just meeting the average of the Skill players. There is around a 3 times difference between the medians of the two positions.
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
